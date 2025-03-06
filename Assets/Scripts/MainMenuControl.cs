@@ -19,4 +19,9 @@ public class MainMenuControl : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+    public void ExitGame()
+    {
+        Application.Quit();
+        print("you Quit");
+    }
 }
